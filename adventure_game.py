@@ -114,4 +114,5 @@ def game_loop():
     print("Thanks for playing!")
 
 
-game_loop()
+if __name__ == "__main__":
+    game_loop()
