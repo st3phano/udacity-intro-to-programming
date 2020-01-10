@@ -13,7 +13,7 @@ class Player:
 
 class HumanPlayer(Player):
     def move(self):
-        move = ""
+        move = "none"
         while move not in moves:
             move = input("rock, paper or scissors? ").lower()
         return move
