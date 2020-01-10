@@ -77,10 +77,10 @@ class Game:
 
     def play_game(self):
         rounds = 0
-        while rounds not in range(1,10):
-            rounds = int(input(f"\nHow many rounds do you want to play human? (1-9)\n"))
+        while rounds not in range(1, 10):
+            rounds = int(input(f"\nHow many rounds human? (1-9)\n"))
         for round in range(rounds):
-            print(f"\nRound {round+1}/{rounds}")            
+            print(f"\nRound {round+1}/{rounds}")
             self.play_round()
         print(f"\nFINAL SCORE: HUMAN: {self.score_p1}  ME: {self.score_p2}")
         if self.score_p1 < self.score_p2:
