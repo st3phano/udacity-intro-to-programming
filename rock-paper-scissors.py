@@ -54,7 +54,6 @@ def beats(one, two):
 
 class Game:
     def __init__(self, p1, p2):
-        self.rounds = 1
         self.p1 = p1
         self.p2 = p2
         self.score_p1 = 0
